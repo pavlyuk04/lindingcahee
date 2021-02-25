@@ -1,0 +1,169 @@
+
+*{transition: all .2s ease-in;}
+
+.container {
+    position: relative;
+    top: -100px;
+    height: 865px;
+    background-color: #B07CF7;
+    margin: 0 auto;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.blog {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: max-content;
+    text-align: center;
+}
+.blog h3{
+    font-weight: 700;
+    font-size: 90px;
+    margin: 0;
+    padding-bottom: 40px;
+}
+.blog div {
+    font-weight: 300;
+    font-size: 17px;
+    width: 40%;
+    margin: 0 auto;
+}
+.cards {
+    display: flex;
+}
+.card {
+    margin: 0 20px;
+    position: relative;
+    width: 373px;
+    height: 311px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.smoothies {
+    background: linear-gradient(to bottom, rgba(249, 249, 249, 0) 0%,
+    rgba(132, 129, 132, 0.01724439775910369) 58%,
+    rgba(8, 7, 8, 0.7203256302521008) 100%), url(img/smoothies.png);
+    background-repeat: no-repeat;
+    
+}  
+.soup {
+    background: linear-gradient(to bottom, rgba(249, 249, 249, 0) 0%,
+    rgba(132, 129, 132, 0.01724439775910369) 58%,
+    rgba(8, 7, 8, 0.7203256302521008) 100%), url(img/soup.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.berries {
+    background: linear-gradient(to bottom, rgba(249, 249, 249, 0) 0%,
+    rgba(132, 129, 132, 0.01724439775910369) 58%,
+    rgba(8, 7, 8, 0.7203256302521008) 100%), url(img/berries.png);
+    background-repeat: no-repeat;
+}
+.data {
+    width: 61px;
+    height: 61px;
+    left: 30px;
+    top: 30px;
+    position: absolute;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(38, 38, 38, 0.5);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text {
+    left: 20px;
+    bottom: 20px;
+    position: absolute;
+    color: white;
+}
+.data p:nth-child(even){
+    margin: 0 0;
+    font-size: 25px;
+    font-weight: 900;
+    height: 30px;
+}
+.numb {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+    height: 30px;
+}
+.text p:nth-child(4n+1) {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing:1px;
+    margin: 0;
+}
+.text p:nth-child(4n+4){
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin: 20px 0 0 0;
+    opacity: 0.7;
+}
+.text p:nth-child(4n+3){
+    position: absolute;
+    left: 40px;
+    bottom: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0;
+}
+.social_img {
+    width: 50px;
+    height: 50px;
+}
+.social_link {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 140px;
+    bottom: 150px;
+    opacity: 0;
+}
+.button {
+    width: 200px;
+    height: 50px;
+    border-radius: 5%;
+    background-color: #F72B3B;
+}
+
+.button a{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 13px 0 13px 0;
+    
+
+}
+.card:hover p{
+     opacity: 0;
+}
+.card:hover .data{
+    opacity: 0;
+}
+.card:hover {
+    box-shadow: 0 0 20px rgb(105, 14, 105);
+
+}
+.card:hover .text p:nth-child(4n+3){
+    opacity: 1;
+    width: max-content;
+    height: max-content;
+    border-radius: 10%;
+    background-color:  rgb(38, 38, 38, 0.5);;
+}
+.card:hover .social_link{
+    opacity: 1;
+}

@@ -1,0 +1,119 @@
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Pacifico', cursive; */
+body {height: 6935px;}
+.page1st{
+    background-image: url(titleimg/heroimg.png);
+    padding: 50px 165px;
+    background-size: cover;
+    height: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.menu__body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    position: fixed;
+    top: 50px;
+    border-radius: 2%;
+    background-color: rgb(255, 255, 255, 0.5);
+    z-index: 1;
+}
+
+.menu__logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    color: #262626;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+}
+.nav__item-link {
+    text-decoration: none;
+    color: #262626;
+}
+.nav__item {
+    margin: 0 20px 0 0;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.nav__item:hover {
+    border-top: 2px solid #FF6033;
+}
+
+.hero__body {
+    font-family: 'Raleway', sans-serif;
+    color: #262626;
+    width: 30%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.hero__title {
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+.hero__text {
+    font-size: 17px;
+}
+.hero__button-link {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background-color: #FF6033;
+
+}
+.hero__button {
+    width: 200px;
+    height: 56px;
+}
+
+.page1st__footer {
+    position: relative;
+    bottom: -200px;
+    display: flex;
+    align-self: center;
+}
+
+.page2nd__body {
+    background-size: cover;;
+    height: 700px;
+    margin: 0 auto;
+    padding: 50px 165px;
+    background-color: #00C4C4;
+    position: relative;
+    top: -100px;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.about__body{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    width: 500px;
+}
+.about__title{
+    font-weight: 700;
+    font-size: 90px;
+}
+.about__text{
+    font-size: 17px;
+}
